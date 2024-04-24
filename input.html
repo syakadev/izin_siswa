@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IZIN SISWA</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <form action="" method="post" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+    <div>
+      <label for="nis">NIS :</label>
+      <input type="text" name="nis" id="nis">
+    </div>
+
+    <div>
+      <label for="nama_siswa">NAMA SISWA:</label>
+      <input type="text" name="nama_siswa" id="nama_siswa">
+    </div>
+
+    <div>
+      <label for="kelas">KELAS :</label>
+      <input type="text" name="kelas" id="kelas">
+    </div>
+
+    <div>
+      <label for="jam_ke">JAM KE :</label>
+
+      <div> <!--jam awal-->
+        <label for="jam_ke">DARI JAM KE</label>
+        <select name="jam_ke" id="jam_ke">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </div>
+
+      <div> <!--jam akhir-->
+        <label for="jam_ke">SAMPAI JAM KE</label>
+        <select name="jam_ke" id="jam_ke">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </div>
+    </div>
+
+    <div>
+      <label for="alasan">ALASAN :</label>
+      <input type="text" name="alasan" id="alasan">
+    </div>
+
+    <input type="submit" value="CETAK">
+
+  </form>
+</body>
+</html>
